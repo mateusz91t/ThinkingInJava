@@ -6,7 +6,7 @@ public class Cla1 {
     protected class Cla1Inner1 implements Inter1 {
         @Override
         public void f() {
-            System.out.println(this.getClass().getSimpleName() + ".f()");
+            System.out.println(this.getClass().getSimpleName() + ".getMyInterEx9()");
         }
         public Cla1Inner1(){
             System.out.println("Cla1.Cla1Inner1()");

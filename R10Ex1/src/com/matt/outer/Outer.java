@@ -3,7 +3,7 @@ package com.matt.outer;
 public class Outer {
     public class Inner {
         public void f() {
-            System.out.println(this.getClass().getSimpleName() + ".f()");
+            System.out.println(this.getClass().getSimpleName() + ".getMyInterEx9()");
         }
         public String getFieldString(){
             return fieldString;
@@ -20,6 +20,6 @@ public class Outer {
         this.fieldString = fieldString;
     }
     public Outer(){
-        fieldString = "";
+        fieldString = "default Constructor";
     }
 }
