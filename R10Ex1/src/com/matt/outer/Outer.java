@@ -5,9 +5,24 @@ public class Outer {
         public void f() {
             System.out.println(this.getClass().getSimpleName() + ".getMyInterEx9()");
         }
-        public String getFieldString(){
+
+        public String getFieldString() {
             return fieldString;
         }
+
+        public int getInneri() {
+            return i;
+        }
+
+        public void setInneri(int ii) {
+            i = ii;
+        }
+    }
+
+    private int i;
+
+    public int getOuteri() {
+        return i;
     }
 
     public Inner getInner() {
@@ -19,7 +34,8 @@ public class Outer {
     public Outer(String fieldString) {
         this.fieldString = fieldString;
     }
-    public Outer(){
+
+    public Outer() {
         fieldString = "default Constructor";
     }
 }
