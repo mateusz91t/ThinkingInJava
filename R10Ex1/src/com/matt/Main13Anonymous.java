@@ -1,0 +1,12 @@
+package com.matt;
+
+import com.matt.ex13anonymous.CInnerOuter;
+import com.matt.ex13anonymous.MyInterEx13;
+
+public class Main13Anonymous {
+    public static void main(String[] args){
+        CInnerOuter cio1 = new CInnerOuter();
+        MyInterEx13 mie1 = cio1.cInner();
+        mie1.getName();
+    }
+}
