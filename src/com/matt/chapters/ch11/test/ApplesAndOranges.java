@@ -17,7 +17,7 @@ public class ApplesAndOranges {
     }
 }
 
-class Apple {
+class Apple { 
     private static long counter;
     private final long id = counter++;
 
